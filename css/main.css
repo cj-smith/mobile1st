@@ -1,0 +1,43 @@
+
+header {
+	width: 100%;
+	height: 11vh;
+	position: fixed;
+	margin-top: -5vh;	
+	background-color: gray;	
+	color: white;
+}
+
+h1 {
+	text-align: center;
+	font-size: 8vh;
+	margin-top: 1vh;
+}
+
+.main {
+	margin-top: 9vh;
+	margin-bottom: 11vh;
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 9vh;
+	background: gray;
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.images {
+	float: left;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	display: inline-block;
+}
