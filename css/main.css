@@ -15,8 +15,11 @@ h1 {
 }
 
 .main {
-	margin-top: 9vh;
-	margin-bottom: 11vh;
+	padding-top: 12vh;
+	padding-bottom: 11vh;
+	border: 2px solid black;
+	background-color: white;
+/*	display: none*/
 }
 
 footer {
@@ -40,4 +43,29 @@ footer {
 	margin-right: 3%;
 	margin-bottom: 3%;
 	display: inline-block;
+}
+
+.menuButton {
+	width: 7vh;
+	height: 7vh;
+	margin-top: 1vh;
+	margin-left: 1vh;
+}
+
+nav {
+	float: left;
+	padding-top: 12vh;
+}
+
+ul {
+	list-style: none;
+}
+
+.articles {
+	padding:  0 3%;
+}
+
+.displaced {
+	background-color: red;
+	float:left;
 }
